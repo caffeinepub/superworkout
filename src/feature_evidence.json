@@ -1,0 +1,27 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-muscle-mass-estimation-value-text-color-in-the-body-analysis-results-display-frontend-src-pages-bodyanalysispage-tsx-to-match-the-styling-used-for-the-body-fat-and-confidence-values-ensuring-consistent-and-readable-text-color-across-all-result-metrics",
+      "featureTitle": "Update the Muscle Mass estimation value text color in the Body Analysis results display (frontend/src/pages/BodyAnalysisPage.tsx) to match the styling used for the Body Fat % and Confidence values, ensuring consistent and readable text color across all result metrics",
+      "files": [
+        "frontend/src/pages/BodyAnalysisPage.tsx"
+      ],
+      "components": [
+        "authorization@3.0.0",
+        "blob-storage@3.0.0",
+        "stripe@3.0.0",
+        "http-outcalls@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

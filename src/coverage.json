@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-22T21:47:27.281Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Update the Muscle Mass estimation value text color in the Body Analysis results display (frontend/src/pages/BodyAnalysisPage.tsx) to match the styling used for the Body Fat % and Confidence values, ensuring consistent and readable text color across all result metrics",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/BodyAnalysisPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/BodyAnalysisPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/BodyAnalysisPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

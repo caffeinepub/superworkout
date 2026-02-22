@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Health app with AI body analysis feature for body type classification",
+  "architectural_notes": [
+    "Uses multimodal vision AI for image analysis",
+    "Body type classification system: ectomorph, mesomorph, endomorph",
+    "Bottom navigation bar includes: Body Analysis, Fitness Metrics, Lifestyle Survey",
+    "Body fat percentage displayed as numerical percentage alongside body type classification"
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-new-body-analysis-page-at-route-body-analysis-that-allows-users-to-upload-a-single-image-for-analysis",
+      "title": "Create a new Body Analysis page at route '/body-analysis' that allows users to upload a single image for analysis",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-body-type-classification-result-on-the-frontend-with-clear-visual-presentation-of-the-identified-type-and-its-characteristics",
+      "title": "Display the body type classification result on the frontend with clear visual presentation of the identified type and its characteristics",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-body-fat-percentage-estimation-to-the-body-analysis-result-display-shown-alongside-the-existing-body-type-classification-as-a-numerical-percentage-value-e-g-18",
+      "title": "Add body fat percentage estimation to the body analysis result display, shown alongside the existing body type classification as a numerical percentage value (e.g., '18%')",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-body-analysis-navigation-link-from-the-header-component-s-top-menu",
+      "title": "Remove the Body Analysis navigation link from the Header component's top menu",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-bottom-navigation-bar-component-that-displays-three-menu-items-body-analysis-fitness-metrics-and-lifestyle-survey",
+      "title": "Create a bottom navigation bar component that displays three menu items: Body Analysis, Fitness Metrics, and Lifestyle Survey",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-the-bottom-navigation-bar-component-into-the-layout-component-so-it-appears-consistently-across-all-pages",
+      "title": "Integrate the bottom navigation bar component into the Layout component so it appears consistently across all pages",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-muscle-mass-estimation-result-on-the-body-analysis-page-frontend-src-pages-bodyanalysispage-tsx-alongside-the-existing-body-type-classification-and-body-fat-percentage-shown-as-a-numerical-value-with-appropriate-units-e-g-45-2-kg-or-42",
+      "title": "Display the muscle mass estimation result on the Body Analysis page (frontend/src/pages/BodyAnalysisPage.tsx) alongside the existing body type classification and body fat percentage, shown as a numerical value with appropriate units (e.g., '45.2 kg' or '42%')",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-muscle-mass-estimation-value-text-color-in-the-body-analysis-results-display-frontend-src-pages-bodyanalysispage-tsx-to-match-the-styling-used-for-the-body-fat-and-confidence-values-ensuring-consistent-and-readable-text-color-across-all-result-metrics",
+      "title": "Update the Muscle Mass estimation value text color in the Body Analysis results display (frontend/src/pages/BodyAnalysisPage.tsx) to match the styling used for the Body Fat % and Confidence values, ensuring consistent and readable text color across all result metrics",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "AI body analysis page with image upload and body type classification (ectomorph/mesomorph/endomorph)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement AI-powered body type classification that analyzes uploaded images and determines whether the body type is ectomorph, mesomorph, or endomorph",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add body fat percentage estimation alongside body type classification",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Remove Body Analysis from top menu and add bottom navigation bar with Body Analysis, Fitness Metrics, and Lifestyle Survey",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Implement muscle mass assessment feature",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add muscle mass estimation to the backend body analysis logic in backend/main.mo, calculating muscle mass as a numerical value (e.g., kilograms or percentage) based on the uploaded body image analysis",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SuperWorkout",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
